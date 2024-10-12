@@ -14,13 +14,13 @@ class Perro(Animal):
     def getPelaje(self):
         return self._pelaje
     
-    def caminar():
+    def caminar(self):
         return "camina muchos pasos"
     
-    def correr():
+    def correr(self):
         return "corre al punto"
     
-    def ruido():
+    def ruido(self):
         print("guau")
     
     @classmethod

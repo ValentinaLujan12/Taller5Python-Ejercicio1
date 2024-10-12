@@ -20,13 +20,14 @@ class Animal(SerVivo):
 
     def getNombre(self):
         return self._nombre
-    def caminar():
+    
+    def caminar(self):
         pass
 
-    def correr():
+    def correr(self):
         pass
 
-    def ruido():
+    def ruido(self):
         pass
 
     @classmethod

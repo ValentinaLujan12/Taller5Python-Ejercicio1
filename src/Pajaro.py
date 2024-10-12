@@ -14,13 +14,13 @@ class Pajaro(Animal):
     def getColorAlas(self):
         return self._colorAlas
 
-    def caminar():
+    def caminar(self):
         return "se mueve poco"
 
-    def correr():
+    def correr(self):
         return "no corre"
 
-    def volar():
+    def volar(self):
         return "vuela al punto"
     
     @classmethod
